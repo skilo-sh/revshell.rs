@@ -55,7 +55,7 @@ fn main() -> io::Result<()> {
             cmd.clear();
             sock_reader.read_line(&mut cmd)?;
 
-            if cmd == "" || cmd == "exit\n" {
+            if cmd == "" || cmd.trim() == "exit" {
                 // Not sure this exit is clean, open PR/issue if you have better ideas
                 shell.kill()?;
                 std::process::exit(0);
