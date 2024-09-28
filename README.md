@@ -1,7 +1,7 @@
 # revshell.rs
 
 ## Description
-A PoC reverse shell written in Rust: fully cross-platform and w/o unsafe code
+A PoC reverse shell written in Rust: fully cross-platform (Windows & Linux) and w/o unsafe code
 ![thumbnail](thumbnail.png)
 
 ## Usage
